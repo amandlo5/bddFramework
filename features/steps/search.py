@@ -38,7 +38,7 @@ def invalidProduct(context):
 
 @then(u'proper message should be displayed in Search Results')
 def messageProper(context):
-    assert context.search.errorMessage("There is no product that matches the search criteria.abc")
+    assert context.search.errorMessage("There is no product that matches the search criteria.")
 
 
 
